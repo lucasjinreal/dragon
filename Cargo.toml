@@ -1,0 +1,26 @@
+[package]
+name = "dragon"
+version = "0.1.0"
+authors = ["jinfagang <nicholasjela@gmail.com>"]
+
+[build-dependencies]
+syntex_syntax = "0.58.1"
+
+[dependencies]
+app_dirs = "1.1.1"
+scribe = "0.6.0"
+pad = "0.1.4"
+bloodhound = "0.5.3"
+luthor = "0.1.7"
+git2 = "0.6"
+fragment = "0.3.1"
+regex = "^0.1"
+libc = "0.2.4"
+syntect = "1.7.1"
+rustbox = "0.9.0"
+termion = { git = "https://github.com/jmacdonald/termion", branch = "esc" }
+error-chain = "0.11.0"
+unicode-segmentation = "1.0.1"
+clipboard = "0.3.0"
+yaml-rust = "0.3.5"
+smallvec = "0.4.3"
