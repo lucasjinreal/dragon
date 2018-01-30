@@ -80,8 +80,8 @@ impl View {
 
     /// Renders the app name, version and copyright info to the screen.
     pub fn draw_splash_screen(&mut self) -> Result<()> {
-        let title = format!("Amp v{}", env!("CARGO_PKG_VERSION"));
-        let copyright = "© 2015-2018 Jordan MacDonald";
+        let title = format!("Dragon v{}", env!("CARGO_PKG_VERSION"));
+        let copyright = "© 2018 Lucas Jin, www.luoli-luoli.com";
 
         let mut position = Position{
             line: self.height() / 2 - 1,
