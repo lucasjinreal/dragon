@@ -1,5 +1,6 @@
 # Dragon
 
+![](http://opbocoyb4.bkt.clouddn.com/dragon_hero.png)
 > A fast text editor standby, built with **Rust**.
 
 We all hope to have a text-editor of our own and more easy-to-use than vim or emacs, so there it is.
